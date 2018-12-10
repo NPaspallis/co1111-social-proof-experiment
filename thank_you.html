@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thank you!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add custom style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Thank you!</h1>
+    <p>You have selected: <span id="hotel"></span></p>
+
+    <script>
+        let selectedHotel = document.getElementById('hotel');
+        let hotelName = getParameter('selected-hotel');
+        selectedHotel.innerText = hotelName;
+
+        function getParameter(name) {
+            let url = new URL(window.location.href);
+            return url.searchParams.get(name);
+        }
+    </script>
+</body>
+</html>

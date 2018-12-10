@@ -1,0 +1,51 @@
+/* demo shizzle only */
+body {
+    background: #f7f7f7;
+    max-width: 900px;
+    padding: 20px;
+    /*   outline: 1px solid #ccc; */
+}
+
+/* Still use global css (not utility css) for base typography etc? */
+p {
+    margin-bottom: 0.8em;
+}
+
+div.offering {
+    margin-bottom: 1em;
+    background: #fff;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: right;
+}
+
+div.description {
+    text-align: left;
+    background: #e7e7f0;
+    padding: 1em;
+}
+
+div.social {
+    text-align: left;
+    padding: 1em;
+    border-top: 2px solid black;
+}
+
+button {
+    margin: 1em;
+    background: lightgreen;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.checked {
+    color: orange;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
